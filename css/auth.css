@@ -25,15 +25,24 @@
 }
 .login{
     background: rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
     border-radius: 15px;
+    
 }
 .password{
     background: rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
     border-radius: 15px;
+  
 }
-.btn{
+.btn1{
    color: #f1f1f1;
-   background-color: #fff;
+   margin-top: 5px;
+   box-shadow: 0px 3px 15px 3px rgba(249,219,91,0.4);
+   text-align: center;
+   border-radius: 15px;
+
+
 }
 #myVideo {
     position: fixed;
