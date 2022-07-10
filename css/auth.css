@@ -1,0 +1,44 @@
+.title1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.auth{
+    font-family: 'Oswald', sans-serif;
+    color: #f1f1f1;
+    position: fixed;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+}
+.form{
+    position: fixed;
+    margin-top: 210px;
+    background: rgba(0, 0, 0, 0.5);
+    right: 670px;
+    border-radius: 15px;
+}
+.login{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.password{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.btn{
+   color: #f1f1f1;
+   background-color: #fff;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
