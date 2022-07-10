@@ -50,8 +50,8 @@ if ($_SESSION['user']) {
                             <input class="password"  type="password" name="password" placeholder="Пароль">
                         </div>
 
-                        <div class="auth__form">
-                            <input class="btn" type="submit" value="Войти">
+                        <div class="btn1">
+                            <input autofocus  class="btn" type="submit" value="Войти">
                         </div>
                     </form>
         </div>
