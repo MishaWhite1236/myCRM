@@ -41,7 +41,7 @@ if (mysqli_num_rows($check_user) > 0) {
     $response = [
         "status" => true
     ];
-    $new_url = './index.php';
+    $new_url = '../index.php';
 
     header('Location: '.$new_url);
     exit();
