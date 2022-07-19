@@ -2,7 +2,7 @@
 session_start();
 error_reporting(0);
 if ($_SESSION['user']) {
-    header('Location: ../auth/profile.php');
+    header('Location: /index.php');
 }
 
 ?>
@@ -41,7 +41,7 @@ if ($_SESSION['user']) {
         <div class="row">
         <div class="col-5"></div>
         <div class="col-4">
-        <form class="form" action="../auth/vendor/signin.php" method="post" id="form">
+        <form class="form" action="./engine/signin.php" method="post" id="form">
                         <div class="auth__form">
                             <input class="login" type="login" name="login" placeholder="Логин">
                         </div>
